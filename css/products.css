@@ -1,0 +1,22 @@
+/* #allvideo{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(214, 213, 213, 0.055);
+    display: block;
+	overflow: hidden;
+font-size: medium;
+
+
+} */
+td,th{
+    color: white;
+}
+
+.video{
+    width: 200px;
+}
+
+/* タブ */

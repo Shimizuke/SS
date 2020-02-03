@@ -1,0 +1,26 @@
+ログイン画面login.html
+　｛・ログインlogin.php→ログイン処理login_act.php→データベース(user_table)
+企業なら１→select.php、投資家なら２→select2.php、管理者なら３→select3.php
+・会員登録がお隅出ない方は…touroku.php→会員登録touroku_insert.php→データベース（user_table）
+｝
+
+Home画面select.php(→動画一覧、ログアウト、退会(本当に退会していいですか？jsチェック))
+検索タブ検索ボタン
+indateを指定してトップ表示。
+動画ひとつひとつにチェックボックス(いいね機能)押したらいいねしたい(もういっこデータベース必要)
+
+Home画面select2.php(→自社動画、ログアウト、動画UP)
+Home＝自社動画一覧
+動画一覧の下にデリートと編集ボタン
+でりーと(delete.php)編集(detail.php→update.php)
+ログアウト処理logout.php
+退会処理taikai.php
+動画UP画面index.php→insert.php(会社名、動画題名、コメント、連絡先、（投稿日時）、動画)
+
+管理者ページselect3.php(登録者管理リスト、動画管理リスト）
+登録者管理リストselect3-1.php企業と投資家で分ける。
+動画管理リストselect3-2.php
+
+
+
+
