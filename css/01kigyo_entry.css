@@ -1,0 +1,52 @@
+/* ----------------ヘッダー下------------------------------ */
+
+.jumbo{
+  background-color: #eee;
+  padding: 15px 32px;
+  text-align: center;
+}
+
+/* ----------------ヘッダー下ここまで------------------------ */
+
+
+/* --------------------起業家登録情報入力--------------------------- */
+.main{
+  background-color: #FEFEFE;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+form{
+  display:block;
+  width:70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.pf-box-kigyo{
+  height: 500px;
+  width: 85%;
+  position: relative;
+  top: 50px;
+  background-color: #BAC0C2;
+ /* box-shadow: 2px 2px 6px gray; */
+   /* border-radius: 5%; */
+}
+
+
+.img-size{
+   width:50%;
+   height:50%;
+}
+.mem-ship{
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+}
+
+.samune{
+  width:100%;
+}
+/*  */

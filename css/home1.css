@@ -1,0 +1,185 @@
+main{
+	background: rgb(36,40,66);
+	margin-top:20px;
+	color: floralwhite;
+	height: 1000px;
+}
+td,th{
+	color: white;
+}
+/* 一番上のヘッダーのとこ */
+.header{
+    height: 80px;
+    background:rgb(255, 255, 255);
+	  display: flex;
+	  margin-bottom: 10px;
+}
+
+.logo img{
+	height: 80px;   
+	margin-left: 10px;  
+	
+}
+/* あいこんのとこ */
+.icon{
+margin-top: 40px;
+margin-right: 20px;
+
+
+/* float: right; */
+}
+.btn-circle-border-simple {
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  border: solid 2px #668ad8;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  transition: .4s;
+
+}
+
+.btn-circle-border-simple:hover {
+  background: #b3e1ff;
+}
+
+/* ナビゲーションのとこ */
+nav{
+    margin-top:20px;
+	margin-right: 10px;
+	margin-left: 180px;
+	margin-bottom: 10px;
+}
+.cp_navi {
+	/* background-color: #9bcaff; */
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	box-shadow: 0 3px 3px -1px rgba(0, 0, 0, 0.055);
+	color: #000000;
+	display: block;
+	overflow: hidden;
+margin-top: 10px;
+}
+.cp_navi ul {
+	margin: 0;
+	padding: 0;
+}
+.cp_navi ul li {
+	display: inline-block;
+	list-style-type: none;
+	-webkit-transition: all 0.2s;
+	        transition: all 0.2s;
+}
+.cp_navi > ul > li > a > .caret {
+	border-top: 4px solid #000000;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	content: '';
+	display: inline-block;
+	height: 0;
+	width: 0;
+	vertical-align: middle;
+	-webkit-transition: color 0.1s linear;
+	        transition: color 0.1s linear;
+}
+.cp_navi > ul > li > a {
+	color: #000000;
+	display: block;
+	line-height: 56px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.cp_navi > ul > li:hover {
+	background-color: rgb(3, 110, 184);
+}
+.cp_navi > ul > li:hover > a {
+	color: rgb( 255, 255, 255 );
+}
+.cp_navi > ul > li:hover > a > .caret {
+	border-top-color: rgb( 255, 255, 255 );
+}
+.cp_navi > ul > li > div {
+	background-color: rgb(3, 110, 184);
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+	display: none;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	width: 165px;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	       transition: opacity 0.2s;
+}
+.cp_navi > ul > li:hover > div {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+.cp_navi > ul > li > div ul > li {
+	display: block;
+}
+.cp_navi > ul > li > div ul > li > a {
+	color: #ffffff;
+	display: block;
+	padding: 12px 24px;
+	text-decoration: none;
+}
+.cp_navi > ul > li > div ul > li:hover > a {
+	background-color: rgba( 255, 255, 255, 0.1);
+}
+/* アイコン押したとき */
+
+.icon> div ul > li {
+    display: block;
+    width: fit-content;
+}
+.icon> div ul > li > a {
+    widows: 100%;
+	display: block;
+	padding: 12px 24px;
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+}
+.icon> div ul > li:hover > a {
+	background-color: rgba( 255, 255, 255, 0.1);
+color: #fff;
+width: 150px;
+}
+.icon:hover > div {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+.icon > div {
+    background-color: rgb(3, 110, 184);
+    color: #fff;
+	border-top: 0;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    display: none;
+    right: 15px;
+	margin-right: 5px;
+	opacity: 0;
+	position: absolute;
+	width: 180px;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+           transition: opacity 0.2s;
+   align-items: center;
+}
+.notice{
+	margin-right: 20px;
+}
+.edit_form{
+margin-left: auto;
+margin-right: auto;
+}

@@ -1,0 +1,58 @@
+.container{
+    margin-left: 10px;
+margin-right: 10px;
+}
+.tab-group{
+    display: flex;
+    justify-content: center;
+    
+}
+.tab,.tab11,.tab22{
+    flex-grow: 1;
+    padding:5px;
+    list-style:none;
+    border:solid 1px #CCC;
+    text-align:center;
+    cursor:pointer;
+    visibility: hidden;
+    widows: 33%;
+}
+.panel-group{
+    border:solid 1px #CCC;
+margin-left: 10px;
+margin-right: 10px;
+height:500px;
+}
+.panel1,.panel2,.panel{
+    display:none;
+}
+.tab11.is-active{
+    background: rgb(3, 110, 184);
+    color:#FFF;
+    transition: all 0.2s ease-out;
+    visibility: visible;
+}
+.panel1.is-show{
+    display:block;
+}
+.tab.is-active{
+    background: rgb(3, 110, 184);
+    color:#FFF;
+    transition: all 0.2s ease-out;
+    visibility: visible;
+}
+.panel.is-show{
+    display:block;
+}
+.tab22.is-active{
+    background: rgb(3, 110, 184);
+    color:#FFF;
+    transition: all 0.2s ease-out;
+    visibility: visible;
+}
+.panel2.is-show{
+    display:block;
+}
+form>div{
+    margin: 10px;
+}
