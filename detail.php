@@ -94,7 +94,6 @@ if ($status == false) {
         <label for="company_name">連絡先</label>
         <input type="text" name="mail" class="form-control" id="company_name" value="<?= $rs['mail'] ?>">
       </div>
-
       <div class="form-group">
         <button type="submit" class="btn btn-primary">Submit</button>
       </div>

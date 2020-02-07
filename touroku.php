@@ -44,7 +44,7 @@
 
                                     <label class="radio inline">
                                         <input type="radio" name="who" value="1" checked>
-                                        <span> 投資家 </span>
+                                        <span>投資家 </span>
                                     </label>
                                     <label class="radio inline">
                                         <input type="radio" name="who" value="2">

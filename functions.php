@@ -4,15 +4,15 @@
 // DB接続関数（PDO）
 function connectToDb()
 {
-  // ★localhost向け
-  $db = 'mysql:dbname=gsacfd04_09;charset=utf8;port=3306;host=localhost';
-  $user = 'root';
-  $pwd = '';
+  // // ★localhost向け
+  // $db = 'mysql:dbname=gsacfd04_09;charset=utf8;port=3306;host=localhost';
+  // $user = 'root';
+  // $pwd = '';
   // ★外部サーバー向け
-  // $db = 'mysql:dbname=df907d0213a8bcd8564ed251a8c08f27;
-  //        charset=utf8;port=3306;host=mysql-1.mc.lolipop.lan';
-  // $user = 'df907d0213a8bcd8564ed251a8c08f27';
-  // $pwd = 'Anchor.xa123';
+  $db = 'mysql:dbname=df907d0213a8bcd8564ed251a8c08f27;
+         charset=utf8;port=3306;host=mysql-1.mc.lolipop.lan';
+  $user = 'df907d0213a8bcd8564ed251a8c08f27';
+  $pwd = 'Anchor.xa123';
   try {
     return new PDO($db, $user, $pwd);
   } catch (PDOException $e) {

@@ -43,6 +43,8 @@ if ($status == false) {
     <link href="css/home1.css" rel="stylesheet" type="text/css">
     <link href="css/products.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/04inv_pf.css">
+    <link rel="stylesheet" href="css/05inv_pf_edit.css">
+
     <!-- アイコンリンクの読み込み -->
     <script src="https://kit.fontawesome.com/cdc3edf2ce.js" crossorigin="anonymous"></script>
 </head>
@@ -65,7 +67,6 @@ if ($status == false) {
                     <li><a href="messages.php"><i class="fas fa-comments"></i> Messages</a></li>
                 </ul>
             </div>
-
         </nav>
         <div class="icon">
             <a href="#" class="btn-circle-border-simple">ICON</a>
