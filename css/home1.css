@@ -8,11 +8,19 @@ td,th{
 	color: white;
 }
 /* 一番上のヘッダーのとこ */
-.header{
+/* .header{
     height: 80px;
     background:rgb(255, 255, 255);
-	  display: flex;
-	  margin-bottom: 10px;
+	display: flex;
+	margin-bottom: 10px;
+	margin: 0;
+	max-width: 100% !important;
+} */
+.header{
+	height:80px;
+	background:white;
+	/* justify-content: space-between; */
+	/* display: flex; */
 }
 
 .logo img{
@@ -22,21 +30,21 @@ td,th{
 }
 /* あいこんのとこ */
 .icon{
-margin-top: 40px;
-margin-right: 20px;
-
-
+	/* height:80px; */
+margin-top: 20px;
+text-align: center;
+/* margin-right: 20px; */
 /* float: right; */
 }
 .btn-circle-border-simple {
   display: inline-block;
   text-decoration: none;
-  color: #668ad8;
+  color:  rgb(36,40,66);
   width: 50px;
   height: 50px;
   line-height: 50px;
-  border-radius: 50%;
-  border: solid 2px #668ad8;
+  /* border-radius: 50%; */
+  /* border: solid 2px #668ad8; */
   justify-content: center;
   text-align: center;
   overflow: hidden;
@@ -46,32 +54,38 @@ margin-right: 20px;
 }
 
 .btn-circle-border-simple:hover {
-  background: #b3e1ff;
+  background-color: rgb(3, 110, 184);
+  color: rgb( 255, 255, 255 );
 }
 
 /* ナビゲーションのとこ */
-nav{
+/* nav{
     margin-top:20px;
 	margin-right: 10px;
 	margin-left: 180px;
 	margin-bottom: 10px;
-}
+} */
 .cp_navi {
 	/* background-color: #9bcaff; */
-	border: 1px solid #dedede;
+	/* border: 1px solid #dedede; */
 	border-radius: 4px;
 	box-shadow: 0 3px 3px -1px rgba(0, 0, 0, 0.055);
 	color: #000000;
 	display: block;
 	overflow: hidden;
-margin-top: 10px;
+	margin-top: 10px;
+	padding:20px;
+	text-align: center;
 }
 .cp_navi ul {
 	margin: 0;
 	padding: 0;
+	display:flex;
 }
 .cp_navi ul li {
 	display: inline-block;
+	width: 16%;
+    text-align: center;
 	list-style-type: none;
 	-webkit-transition: all 0.2s;
 	        transition: all 0.2s;
@@ -183,3 +197,5 @@ width: 150px;
 margin-left: auto;
 margin-right: auto;
 }
+
+
