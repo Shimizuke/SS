@@ -36,5 +36,5 @@ if ($status == false) {
   exit('sqlError:' . $error[2]);
 } else {
   //５．index.phpへリダイレクト
-  header('Location: select.php');
+  header('Location:01movie_ev.php');
 }

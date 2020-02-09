@@ -33,20 +33,20 @@ if ($val['id'] != '') {
   $_SESSION['who'] = $val['who'];
   $_SESSION['namae'] = $val['namae'];
   if ($val['who'] == 1) {
-    //企業向けへ
-    header('Location:pf1.php');
+    //起業家向けへ
+    header('Location:01home.php');
   } else if ($val['who'] == 2) {
     //投資家向けへ
-    header('Location:select2.php');
+    header('Location:02movie_list.php');
   } else if ($val['who'] == 3) {
     //管理者向けへ
-    header('Location:select3.php');
+    header('Location:03main.php');
   }
 } else {
   //ログイン失敗の場合はログイン画面へ戻る
   $alert = "<script type='text/javascript'>alert('ログインに失敗しました');</script>";
   echo $alert;
-  header('Location:login.php');
+  header('Location:00login.php');
 }
 
 exit();

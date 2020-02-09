@@ -31,8 +31,8 @@
         <h1>おかえりなさい</h1>
         <div>
 
-            <a href="select3_1.php">登録者一覧へ</a>
-            <a href="select3_2.php">動画一覧へ</a>
+            <a href="03resist_list.php">登録者一覧へ</a>
+            <a href="03movie_list.php">動画一覧へ</a>
         </div>
     </div>
 

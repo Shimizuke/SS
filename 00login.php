@@ -24,7 +24,7 @@
             <div class="col-md-6 login-form-2">
                 <br>
                 <h3>LOGIN</h3>
-                <form method="post" action="login_act.php">
+                <form method="post" action="00login_act.php">
                     <div class="form-group" class="login">
                         <input type="text" class="form-control" placeholder="Your ID" value="" name="lid">
                     </div>
@@ -38,7 +38,7 @@
                         <a href="#" class="ForgetPwd" value="Login">Forget Password?</a>
                     </div>
                     <div class="form-group">
-                        <a href="touroku.php" class="ForgetPwd">For Resister</a>
+                        <a href="00Resister.php" class="ForgetPwd">For Resister</a>
                     </div>
                 </form>
             </div>

@@ -40,5 +40,5 @@ if ($status == false) {
     exit('sqlError:' . $error[2]);
 } else {
     //５．index.phpへリダイレクト
-    header('Location: login.php');
+    header('Location: 00login.php');
 }

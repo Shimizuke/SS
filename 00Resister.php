@@ -27,7 +27,7 @@
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <h3 class="register-heading">会員登録</h3>
                         <div class="row register-form">
-                            <form class="col-md-6" action="touroku_insert.php" method="post" style="width:50%;margin:0 auto;">
+                            <form class="col-md-6" action="00Resister_insert.php" method="post" style="width:50%;margin:0 auto;">
                                 <div class="form-group">
                                     <input type="text" name="namae" class="form-control" placeholder="Name" value="" />
                                 </div>
@@ -43,11 +43,11 @@
                                 <div class="form-group">
 
                                     <label class="radio inline">
-                                        <input type="radio" name="who" value="1" checked>
+                                        <input type="radio" name="who" value="2" checked>
                                         <span>投資家 </span>
                                     </label>
                                     <label class="radio inline">
-                                        <input type="radio" name="who" value="2">
+                                        <input type="radio" name="who" value="1">
                                         <span>起業家 </span>
                                     </label>
                                 </div>

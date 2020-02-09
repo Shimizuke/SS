@@ -17,6 +17,6 @@ if ($status == false) {
   showSqlErrorMsg($stmt);
 } else {
   //select.phpへリダイレクト
-  header('Location: select.php');
+  header('Location: 01movie_ev.php');
   exit;
 }

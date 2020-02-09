@@ -13,44 +13,47 @@
     <!-- stylesheet.cssの読み込み -->
     <link href="css/home1.css" rel="stylesheet" type="text/css">
     <link href="css/stylesheet.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/04inv_pf.css">
     <!-- jQuery読み込み -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- chat用cssの読み込み -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
 </head>
+<header class="header row">
+    <div class="logo col-3">
+        <img src="img/logo1.jpg">
+    </div>
+    <div class="col-7 cp_navi">
+        <ul>
+            <li data-toggle="tooltip" title="Home"><a href="02movie_list.php"><i class="fas fa-home fa-2x"></i></a></li>
+            <li data-toggle="tooltip" title="Messages"><a href="02messages.php"><i class="fas fa-comments fa-2x"></i></a></li>
+        </ul>
+    </div>
+    <div class="icon col-2">
+        <a href="#" class="btn-circle-border-simple"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+        <div>
+            <ul>
+                <li><a href="02profile.php">プロフィール</a></li>
+                <li><a href="#setting">設定</a></li>
+                <li><a href="00logout.php">ログアウト</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- bootstrap javascriptの読み込み -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $('[data-toggle="tooltip"]').tooltip();
+    </script>
+</header>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="img/logo1.jpg">
-        </div>
-        <nav>
-            <div class="cp_navi">
-                <ul>
-                    <li><a href="select2.php"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="messages2.php"><i class="fas fa-comments"></i> Messages</a></li>
-                </ul>
-            </div>
-        </nav>
 
-        <div class="icon float-right">
-            <a href="#" class="btn-circle-border-simple">ICON</a>
-            <div>
-                <ul>
-                    <li><a href="pf.php">プロフィール</a></li>
-                    <li><a href="#setting">設定</a></li>
-                    <li><a href="logout.php">ログアウト</a></li>
-                </ul>
-            </div>
-        </div>
-
-    </header>
     <main>
         <div class="container">
-            　　　<div class="messaging">
-                　　　<div class="inbox_msg">
-                    　　　<div class="inbox_people">
+            <div class="messaging">
+                <div class="inbox_msg">
+                    <div class="inbox_people">
                         <div class="headind_srch">
                             <div class="recent_heading">
                                 <h4>Recent</h4>

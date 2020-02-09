@@ -79,17 +79,17 @@ if ($status == false) {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="select3.php">管理者トップ</a>
+            <a class="nav-link" href="03main.php">管理者トップ</a>
           </li>
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="select3_2.php">投稿動画一覧</a>
+            <a class="nav-link" href="03resist_list.php">投稿動画一覧</a>
           </li>
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="logout.php">ログアウト</a>
+            <a class="nav-link" href="00logout.php">ログアウト</a>
           </li>
         </ul>
       </div>

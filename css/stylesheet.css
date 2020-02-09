@@ -18,21 +18,19 @@ main{
 }
 /* あいこんのとこ */
 .icon{
-margin-top: 40px;
-margin-right: 20px;
-
-
+margin-top: 20px;
+text-align: center;
 /* float: right; */
 }
 .btn-circle-border-simple {
-  display: inline-block;
+   display: inline-block;
   text-decoration: none;
-  color: #668ad8;
+  color:  rgb(36,40,66);
   width: 50px;
   height: 50px;
   line-height: 50px;
-  border-radius: 50%;
-  border: solid 2px #668ad8;
+  /* border-radius: 50%; */
+  /* border: solid 2px #668ad8; */
   justify-content: center;
   text-align: center;
   overflow: hidden;
@@ -42,8 +40,8 @@ margin-right: 20px;
 }
 
 .btn-circle-border-simple:hover {
-  background: #b3e1ff;
-}
+  background-color: rgb(3, 110, 184);
+  color: rgb( 255, 255, 255 );}
 
 /* ナビゲーションのとこ */
 nav{
@@ -54,7 +52,7 @@ nav{
 }
 .cp_navi {
 	/* background-color: #9bcaff; */
-	border: 1px solid #dedede;
+	/* border: 1px solid #dedede; */
 	border-radius: 4px;
 	box-shadow: 0 3px 3px -1px rgba(0, 0, 0, 0.055);
 	color: #000000;
