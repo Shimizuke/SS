@@ -30,7 +30,7 @@ if ($status == false) {
     $view .= '<h2>Present by  ' . $result['company_name']  . '</h2>';
     $view .= ' <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <a href="movie_play.php?id=' . $result['id'] . '"><button type="button"
+                                        <a href="02movie_play.php?id=' . $result['id'] . '"><button type="button"
                                                 class="btn btn-sm btn-outline-secondary">視聴</button></a>
                                         <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
                                     </div>
@@ -94,28 +94,28 @@ if ($status == false) {
 
 <body>
 
-  <main>
-    <section class="jumbotron text-center" style="padding: 0px 32px;">
-      <div class="container">
-        <h1 class="jumbotron-heading,my-lg-0">新着動画一覧</h1>
-        <!-- <p class="lead text-muted">Something short and leading about the collection below—its contents, the
+
+  <section class="jumbotron text-center" style="padding: 0px 32px;">
+    <div class="container">
+      <h1 class="jumbotron-heading,my-lg-0">新着動画一覧</h1>
+      <!-- <p class="lead text-muted">Something short and leading about the collection below—its contents, the
                     creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it
                     entirely.</p> -->
-        <p>
-          <!--データベースから取得したデータをasc順に掲載する -->
-          <a href="#" class="btn btn-primary my-2">新着順</a>
-          <a href="#" class="btn btn-secondary my-2">急上昇順</a>
-        </p>
-      </div>
-    </section>
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div class="row">
-          <?= $view ?>
-        </div>
+      <p>
+        <!--データベースから取得したデータをasc順に掲載する -->
+        <a href="#" class="btn btn-primary my-2">新着順</a>
+        <a href="#" class="btn btn-secondary my-2">急上昇順</a>
+      </p>
+    </div>
+  </section>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <?= $view ?>
       </div>
     </div>
-  </main>
+  </div>
+
 </body>
 
 </html>

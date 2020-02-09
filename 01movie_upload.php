@@ -64,7 +64,7 @@ $kid = $_SESSION["id"];
       </ul>
 
       <!--タブを切り替えて表示するコンテンツ-->
-      <form class="panel-group" action="01ent_insert.php" method="post" enctype="multipart/form-data">
+      <form class="panel-group" action="01insert.php" method="post" enctype="multipart/form-data">
         <div class="panel is-show">動画をMP４ファイルでアップロードしてください
           <label id='open-file'>
             動画ファイルを開く

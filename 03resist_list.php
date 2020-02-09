@@ -84,7 +84,7 @@ if ($status == false) {
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="03resist_list.php">投稿動画一覧</a>
+            <a class="nav-link" href="03movie_list.php">投稿動画一覧</a>
           </li>
         </ul>
         <ul class="navbar-nav">

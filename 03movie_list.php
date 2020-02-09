@@ -28,6 +28,7 @@ if ($status == false) {
     $view .= '<h2>Present by  ' . $result['company_name']  . '</h2>';
     $view .= '<p>コメント:' . $result['comment']  . '</p>';
     $view .= '<p>連絡先：' . $result['mail']  . '</p>';
+    $view .= '<td><a href="01movie_delete.php?id=' . $result['id'] . '" class="badge badge-danger">Delete</a></td>';
     $view .= '</li>';
   }
 }

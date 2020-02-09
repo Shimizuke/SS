@@ -2,5 +2,5 @@
 https://github.com/Shimizuke/SS
 private pass：anchor.xa1
 ○デプロイ
-会員登録https://startup-station.lolipop.io/front/touroku.php
-ログインhttps://startup-station.lolipop.io/front/login.php
+会員登録https://startup-station.lolipop.io/front/00resister.php
+ログインhttps://startup-station.lolipop.io/front/00login.php

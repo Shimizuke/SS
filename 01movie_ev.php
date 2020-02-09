@@ -28,8 +28,8 @@ if ($status == false) {
     $view .= '<td></td><td><video src="' . $result['movie'] . '" class="video" controls></video></td>';
     $view .= '<td>' . $result['title'] . '</td>';
     $view .= '<td>' . $result['indate']  . '</td><td></td>';
-    $view .= '<td><a href="detail.php?id=' . $result['id'] . '" class="badge badge-primary">Edit</a></td>';
-    $view .= '<td><a href="delete.php?id=' . $result['id'] . '" class="badge badge-danger">Delete</a></td>';
+    $view .= '<td><a href="01detail.php?id=' . $result['id'] . '" class="badge badge-primary">Edit</a></td>';
+    $view .= '<td><a href="01movie_delete.php?id=' . $result['id'] . '" class="badge badge-danger">Delete</a></td>';
     $view .= '</tr>';
   }
 }
