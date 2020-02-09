@@ -54,7 +54,7 @@ if ($status == false) {
   <link rel="stylesheet" href="css/04inv_pf.css">
 </head>
 <header class="header row">
-  <div class="logo col-3">
+  <div class="logo col-4">
     <img src="img/logo1.jpg">
   </div>
   <div class="col-7 cp_navi">
@@ -67,7 +67,7 @@ if ($status == false) {
       <li data-toggle="tooltip" title="Messages"><a href="01messages.php"><i class="fas fa-comments fa-2x"></i></a></li>
     </ul>
   </div>
-  <div class="icon col-2">
+  <div class="icon col-1">
     <a href="#" class="btn-circle-border-simple"><i class="fas fa-ellipsis-h fa-2x"></i></a>
     <div>
       <ul>

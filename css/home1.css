@@ -68,27 +68,32 @@ text-align: center;
 .cp_navi {
 	/* background-color: #9bcaff; */
 	/* border: 1px solid #dedede; */
-	border-radius: 4px;
-	box-shadow: 0 3px 3px -1px rgba(0, 0, 0, 0.055);
+	/* border-radius: 4px; */
+	/* box-shadow: 0 3px 3px -1px rgba(0, 0, 0, 0.055); */
 	color: #000000;
 	display: block;
 	overflow: hidden;
 	margin-top: 10px;
 	padding:20px;
-	text-align: center;
+	/* text-align: center; */
 }
 .cp_navi ul {
 	margin: 0;
 	padding: 0;
 	display:flex;
+	
 }
+ul.right{
+justify-content: flex-end;
+}
+
 .cp_navi ul li {
 	display: inline-block;
 	width: 16%;
     text-align: center;
 	list-style-type: none;
 	-webkit-transition: all 0.2s;
-	        transition: all 0.2s;
+			transition: all 0.2s;
 }
 .cp_navi > ul > li > a > .caret {
 	border-top: 4px solid #000000;

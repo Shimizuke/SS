@@ -53,7 +53,7 @@ if ($status == false) {
         <img src="img/logo1.jpg">
     </div>
     <div class="col-7 cp_navi">
-        <ul>
+        <ul class="right">
             <li data-toggle="tooltip" title="Home"><a href="02movie_list.php"><i class="fas fa-home fa-2x"></i></a></li>
             <li data-toggle="tooltip" title="Messages"><a href="02messages.php"><i class="fas fa-comments fa-2x"></i></a></li>
         </ul>

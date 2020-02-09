@@ -14,7 +14,7 @@
     <link href="css/membership.css" rel="stylesheet" type="text/css">
 </head>
 <header class="header row">
-    <div class="logo col-3">
+    <div class="logo col-4">
         <img src="img/logo1.jpg">
     </div>
     <div class="col-7 cp_navi">
@@ -27,7 +27,7 @@
             <li data-toggle="tooltip" title="Messages"><a href="01messages.php"><i class="fas fa-comments fa-2x"></i></a></li>
         </ul>
     </div>
-    <div class="icon col-2">
+    <div class="icon col-1">
         <a href="#" class="btn-circle-border-simple"><i class="fas fa-ellipsis-h fa-2x"></i></a>
         <div>
             <ul>
